@@ -1,4 +1,4 @@
-# BukkitTelnet v4.2 Configuration File
+# BF-BukkitTelnet v.05 Configuration File
 
 # Address to listen on, leave blank for all
 address: ''
@@ -7,7 +7,7 @@ address: ''
 port: 8765
 
 # Main connection password, must be defined
-password: 'walrus'
+password: 'stupid55555555555555555555555555'
 
 # List of admins / IPs that don't have to use the password
 admins:
