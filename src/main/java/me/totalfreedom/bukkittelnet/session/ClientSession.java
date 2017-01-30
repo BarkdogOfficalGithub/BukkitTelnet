@@ -110,7 +110,7 @@ public final class ClientSession extends Thread
 
         if (authenticated)
         {
-            TelnetLogger.info("Closing connection: " + clientAddress + (username.isEmpty() ? "" : " (" + username + ")"));
+            TelnetLogger.info("Closing Telnet or RCON connection: " + clientAddress + (username.isEmpty() ? "" : " (" + username + ")"));
         }
 
         // Stop feeding the client with data
@@ -123,7 +123,7 @@ public final class ClientSession extends Thread
                 return;
             }
 
-            writeLine("Closing connection...");
+            writeLine("Closing Telnet or RCON connection...");
             try
             {
                 clientSocket.close();
