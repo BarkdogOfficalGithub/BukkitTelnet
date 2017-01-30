@@ -1,5 +1,5 @@
-name: BF-BukkitTelnet
+name: BarkCraftTelnet
 main: me.totalfreedom.bukkittelnet.BukkitTelnet
-version: 0.1
+version: 0.2
 description: Telnet console access plugin.
 authors: [bekvon, Madgeek1450, Prozza xBarkPuppy1]
